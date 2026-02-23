@@ -1,5 +1,5 @@
 // Objetivo do exercício: Crie um programa que solicite ao usuário a entrada de um número inteiro. Verifique se o número é par ou ímpar e exiba uma mensagem correspondente.
-
+package br.com.givanildo.alura.condicionais;
 import java.util.Scanner;
 public class ParOuImpar {
     public static void main(String[] args) {

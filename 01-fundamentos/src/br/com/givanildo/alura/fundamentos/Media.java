@@ -1,5 +1,5 @@
 // Objetivo do exercício: Crie um programa que realize a média de duas notas decimais e exiba o resultado.
-
+package br.com.givanildo.alura.fundamentos;
 public class Media {
     public static void main(String[] args) {
 

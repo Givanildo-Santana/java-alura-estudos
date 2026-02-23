@@ -1,5 +1,5 @@
 // Objetivo do exercício: Crie um programa que solicite ao usuário um número e exiba a tabuada desse número de 1 a 10.
-
+package br.com.givanildo.alura.condicionais;
 import java.util.Scanner;
 public class Tabuada {
     public static void main(String[] args) {

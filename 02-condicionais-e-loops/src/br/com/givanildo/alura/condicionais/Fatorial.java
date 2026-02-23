@@ -1,5 +1,5 @@
 // Objetivo do exercício: Crie um programa que solicite ao usuário um número e calcule o fatorial desse número.
-
+package br.com.givanildo.alura.condicionais;
 import java.util.Scanner;
 public class Fatorial {
     public static void main(String[] args) {

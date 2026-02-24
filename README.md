@@ -1,24 +1,19 @@
 # java-alura-estudos
 
-Anotações, exercícios e projetos do curso de Java da Alura (do básico ao POO), com evolução semanal.
+Repositório de estudos em Java com exercícios, desafios e projetos dos cursos da Alura, organizado por carreira e curso.
 
-## Tecnologias
-- Java (JDK 17+)
-- IntelliJ IDEA
-- Git e GitHub
+## Organização
 
-## Estrutura
-- `01-fundamentos/` — variáveis, casting, strings e operações
-- `02-condicionais-e-loops/` — Scanner, if/else, for/while (menu, tabuada, par/ímpar, fatorial)
+- `carreira-backend-java/` — materiais da carreira **Desenvolvedor Back-end Java**
 
-## Como executar
-1. Abra o projeto no IntelliJ IDEA
-2. Navegue até o módulo desejado ex: (`01-fundamentos` ou `02-condicionais-e-loops`)
-3. Execute qualquer classe que tenha o método `main`
+Dentro de cada carreira, os estudos são separados por curso, e cada curso possui seus módulos, desafios e documentos (como certificados).
 
-> Observação: os exercícios são independentes (uma classe por exercício).
+Exemplo (carreira de back-end):
 
-## Progresso
-- ✅ Módulo 01 — Fundamentos
-- ✅ Módulo 02 — Condicionais e Loops
-- 🔄 Próximos módulos — POO (em andamento)
+```text
+carreira-backend-java/
+└── curso-01-java-criando-sua-primeira-aplicacao/
+    ├── modulo-01-fundamentos/
+    ├── modulo-02-condicionais-e-loops/
+    ├── desafio-conta-bancaria/
+    └── docs/   # certificado do curso

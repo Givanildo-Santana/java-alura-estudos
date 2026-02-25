@@ -1,5 +1,3 @@
-package br.com.givanildo.alura.desafios.contabancaria;
-
 import java.util.Scanner;
 
 public class ContaBancaria {

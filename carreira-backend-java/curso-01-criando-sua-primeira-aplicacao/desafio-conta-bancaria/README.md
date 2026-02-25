@@ -19,10 +19,10 @@ Exercício em Java que simula uma conta bancária simples no terminal, permitind
         - Tipo de conta: `Corrente`
         - Saldo inicial: `R$ 2500,00`
     - Apresenta um menu com as opções:
-         1. Consultar saldo
-         2. Receber valor (depósito)
-         3. Transferir valor
-         4. Sair
+        1. Consultar saldo
+        2. Receber valor (depósito)
+        3. Transferir valor
+        4. Sair
     - Atualiza o saldo após cada depósito ou transferência
     - Valida valores inválidos (depósito/transferência menor ou igual a zero)
     - Impede transferências com valor maior que o saldo disponível
@@ -34,9 +34,9 @@ Exercício em Java que simula uma conta bancária simples no terminal, permitind
 
 Passos gerais:
 
-1. Certifique-se de que o projeto está configurado com o pacote:
+1. Garanta que o arquivo da classe principal esteja salvo como:
 
-    - `br.com.givanildo.alura.desafios.contabancaria`
+    - `ContaBancaria.java`
 
 2. Localize a classe principal:
 
@@ -47,13 +47,13 @@ Passos gerais:
     - Compilação:
 
       ```bash
-      javac src/br/com/givanildo/alura/desafios/contabancaria/ContaBancaria.java
+      javac ContaBancaria.java
       ```
 
     - Execução:
 
       ```bash
-      java br.com.givanildo.alura.desafios.contabancaria.ContaBancaria
+      java ContaBancaria
       ```
 
    > Os caminhos podem variar conforme a estrutura do seu repositório.
@@ -80,9 +80,9 @@ Operações
 
 Digite a opção desejada: 2
 
-Opção selecionada '2' Deposito
+Opção selecionada '2' Depósito
 
-Informe o valor do deposito: 500
+Informe o valor do depósito: 500
 
 ****************************************
 Saldo após o depósito: R$ 3000,00

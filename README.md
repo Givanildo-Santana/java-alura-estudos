@@ -12,7 +12,7 @@ Exemplo (carreira de back-end):
 
 ```text
 carreira-backend-java/
-└── curso-01-java-criando-sua-primeira-aplicacao/
+└── curso-01-criando-sua-primeira-aplicacao/
     ├── modulo-01-fundamentos/
     ├── modulo-02-condicionais-e-loops/
     ├── desafio-conta-bancaria/

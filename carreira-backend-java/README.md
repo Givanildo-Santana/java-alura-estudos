@@ -6,8 +6,8 @@ Os materiais estão organizados por curso, e dentro de cada curso por módulos e
 
 ## Cursos
 
-- `curso-01-java-criando-sua-primeira-aplicacao/`  
-  Curso introdutório de Java, focado em:
+- `curso-01-criando-sua-primeira-aplicacao/`  
+  Curso introdutório, focado em:
     - instalação e configuração do ambiente (JDK + IntelliJ);
     - tipos de dados, variáveis e operações básicas;
     - leitura de dados com `Scanner`;
@@ -31,7 +31,7 @@ Os materiais estão organizados por curso, e dentro de cada curso por módulos e
 
 2. Escolha o curso desejado, por exemplo:
 
-    - `curso-01-java-criando-sua-primeira-aplicacao/`
+    - `curso-01-criando-sua-primeira-aplicacao/`
 
 3. Dentro do curso, escolha:
     - um módulo (`modulo-01-fundamentos`, `modulo-02-condicionais-e-loops`), ou
@@ -43,7 +43,7 @@ Os materiais estão organizados por curso, e dentro de cada curso por módulos e
 
 ## Progresso da carreira
 
-- ✅ Curso 01 — Java: criando a sua primeira aplicação
+- ✅ Curso 01 — criando a sua primeira aplicação
     - ✅ Módulo 01 — Fundamentos
     - ✅ Módulo 02 — Condicionais e Loops
     - ✅ Desafio — Conta Bancária no Console

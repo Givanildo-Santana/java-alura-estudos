@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
-
 public class Calculadora {
+
+    double calcularDobro(double numero){
+        return numero * 2;
+    }
+
 }

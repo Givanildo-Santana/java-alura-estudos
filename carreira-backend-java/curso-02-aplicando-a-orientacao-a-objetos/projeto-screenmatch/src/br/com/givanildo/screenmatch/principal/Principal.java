@@ -1,23 +1,42 @@
 package br.com.givanildo.screenmatch.principal;
 import br.com.givanildo.screenmatch.model.Filme;
+import br.com.givanildo.screenmatch.model.Serie;
+import br.com.givanildo.screenmatch.calculos.CalculadoraDeTempo;
 
 public class Principal {
     public static void main(String[] args) {
-        Filme filme1 = new Filme();
+        Filme favorito = new Filme();
+        favorito.setNome("Vingadores: Ultimato");
+        favorito.setAnoDeLancamento(2019);
+        favorito.setDuracaoEmMinutos(181);
+        favorito.setIncluidoNoPlano(true);
+        favorito.exibeFichaTecnica();
 
-        filme1.setNome("Gato de botas");
-        filme1.setAnoDeLancamento(2018);
-        filme1.setDuracaoEmMinutos(150);
-        filme1.setIncluidoNoPlano(true);
+        Filme outro = new Filme();
+        outro.setNome("Capitão América: O Primeiro Vingador");
+        outro.setAnoDeLancamento(2011);
+        outro.setDuracaoEmMinutos(124);
+        outro.setIncluidoNoPlano(true);
+        outro.exibeFichaTecnica();
+
+        Serie serie = new Serie();
+        serie.setNome("Loki");
+        serie.setAnoDeLancamento(2021);
+        serie.setIncluidoNoPlano(true);
+        serie.setAtiva(true);
+        serie.setTemporadas(2);
+        serie.exibeFichaTecnica();
+
+        serie.setEpisodiosPorTemporada(6);
+        serie.setMinutosPorEpisodio(50);
+
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+        calculadora.inclui(favorito);
+        calculadora.inclui(outro);
+        calculadora.inclui(serie);
 
 
-
-        filme1.exibeFichaTecnica();
-        filme1.avalia(10);
-        filme1.avalia(5);
-        filme1.avalia(2);
-
-        System.out.printf("Média das avaliações: %.2f", filme1.pegarMedia());
+        System.out.printf("Tempo necessário para maratonar tudo: %d minutos ",calculadora.getTempoTotal());
     }
 
 }

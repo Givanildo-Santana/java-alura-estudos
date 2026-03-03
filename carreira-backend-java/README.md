@@ -21,39 +21,52 @@ A carreira é dividida em **Base** + **3 Níveis**, totalizando 63 cursos e mais
 
 ## 📁 Cursos neste repositório
 
+### 🟢 Base — Fundamentos de Programação
+
+- `base-fundamentos-de-programacao/curso-01-boas-vindas-e-primeiros-passos/`
+  Curso introdutório da carreira, focado em orientação:
+  - estrutura da carreira e certificados;
+  - navegação na plataforma Alura;
+  - equipe de apoio (fórum, Discord, Luri);
+  - dicas de estudo e hábitos.
+
+- `base-fundamentos-de-programacao/curso-02-pensamento-computacional/`
+  Fundamentos da computação e lógica de programação:
+  - pensamento computacional e decomposição de problemas;
+  - algoritmos e fluxogramas;
+  - lógica de programação (pseudocódigo);
+  - linguagens de programação e compiladores.
+
 ### 🔵 Nível 1 — Aplicações Web com Java e Spring
 
 - `curso-01-criando-sua-primeira-aplicacao/`
-  Curso introdutório, focado em:
-    - instalação e configuração do ambiente (JDK + IntelliJ);
-    - tipos de dados, variáveis e operações básicas;
-    - leitura de dados com `Scanner`;
-    - condicionais (`if/else`) e loops (`for`, `while`);
-    - criação de menus no console.
+  Curso introdutório de Java, focado em:
+  - instalação e configuração do ambiente (JDK + IntelliJ);
+  - tipos de dados, variáveis e operações básicas;
+  - leitura de dados com `Scanner`;
+  - condicionais (`if/else`) e loops (`for`, `while`);
+  - criação de menus no console.
 
   Estrutura do curso:
-    - `modulo-01-atividades-fundamentos/` — variáveis, casting, strings e operações
-    - `modulo-02-atividades-condicionais-e-loops/` — `Scanner`, `if/else`, `for/while` (menu, tabuada, par/ímpar, fatorial)
-    - `desafio-conta-bancaria/` — simulador de conta bancária no console (consulta de saldo, depósito e transferência)
-    - `docs/` — certificado do curso
+  - `modulo-01-atividades-fundamentos/` — variáveis, casting, strings e operações
+  - `modulo-02-atividades-condicionais-e-loops/` — `Scanner`, `if/else`, `for/while` (menu, tabuada, par/ímpar, fatorial)
+  - `modulo-03-desafio-conta-bancaria/` — simulador de conta bancária no console (consulta de saldo, depósito e transferência)
+  - `docs/` — certificado do curso
 
 - `curso-02-aplicando-a-orientacao-a-objetos/`
   Curso de POO, focado em:
-    - criação de classes, atributos e métodos;
-    - encapsulamento com `private`, getters e setters;
-    - uso de `this`;
-    - organização por pacotes (`br.com.givanildo...`);
-    - herança, polimorfismo e interfaces;
-    - modelagem de um projeto real (ScreenMatch).
+  - criação de classes, atributos e métodos;
+  - encapsulamento com `private`, getters e setters;
+  - uso de `this`;
+  - organização por pacotes (`br.com.givanildo...`);
+  - herança, polimorfismo e interfaces;
+  - modelagem de um projeto real (ScreenMatch).
 
   Estrutura do curso:
-    - `modulo-01-modelando-o-screenmatch/` — modelagem do projeto ScreenMatch com separação `model/` e `principal/`
-    - `modulo-01-atividades-poo-basicas/` — classes básicas (Pessoa, Calculadora, Música, Carro, Aluno) com menu interativo
-    - `modulo-02-controlando-o-acesso/` — encapsulamento com `private`, getters, setters e `this`
-    - `modulo-02-desafios/` — 5 desafios de encapsulamento com pacotes separados por exercício
-    - `modulo-03-reaproveitando-caracteristicas/` — herança e reaproveitamento de comportamentos
-    - `modulo-04-aplicando-comportamentos-em-comum/` — interfaces e polimorfismo
-    - `modulo-05-consolidando-conhecimentos/` — projeto final consolidando POO
+  - `modulo-01-atividades-poo-basicas/` — classes básicas (Pessoa, Calculadora, Música, Carro, Aluno) com menu interativo
+  - `modulo-02-desafios-encapsulamento/` — 5 desafios de encapsulamento com pacotes separados por exercício
+  - `modulo-03-heranca-e-polimorfismo/` — herança, polimorfismo e modificador `protected` *(em andamento)*
+  - `projeto-screenmatch/` — projeto principal do curso, evoluído ao longo dos módulos
 
 - *(em breve)* `curso-03-trabalhando-com-listas-e-colecoes/`
 - *(em breve)* `curso-04-consumindo-api-gravando-arquivos-lidando-com-erros/`
@@ -73,19 +86,20 @@ A carreira é dividida em **Base** + **3 Níveis**, totalizando 63 cursos e mais
 ## 📊 Progresso
 
 ### Base
-- *(não iniciado)*
+- ✅ Curso 01 — Boas-vindas e primeiros passos
+- ✅ Curso 02 — Pensamento computacional
 
 ### Nível 1 — Aplicações Web com Java e Spring
 - ✅ Curso 01 — Java: criando a sua primeira aplicação
-    - ✅ Módulo 01 — Fundamentos (variáveis, casting, strings)
-    - ✅ Módulo 02 — Condicionais e Loops
-    - ✅ Desafio — Conta Bancária no Console
+  - ✅ Módulo 01 — Atividades de Fundamentos
+  - ✅ Módulo 02 — Atividades de Condicionais e Loops
+  - ✅ Módulo 03 — Desafio: Conta Bancária no Console
 - 🔄 Curso 02 — Java: aplicando a Orientação a Objetos *(48% concluído)*
-    - ✅ Módulo 01 — Modelando o ScreenMatch
-    - ✅ Módulo 02 — Controlando o acesso e a escrita nos dados da aplicação
-    - 🔄 Módulo 03 — Reaproveitando características e comportamentos *(em andamento)*
-    - ⏳ Módulo 04 — Aplicando comportamentos em comum
-    - ⏳ Módulo 05 — Consolidando conhecimentos
+  - ✅ Módulo 01 — Atividades básicas de POO
+  - ✅ Módulo 02 — Desafios de Encapsulamento
+  - 🔄 Módulo 03 — Herança e Polimorfismo *(em andamento)*
+  - ⏳ Módulo 04 — Aplicando comportamentos em comum
+  - ⏳ Módulo 05 — Consolidando conhecimentos
 - ⏳ Curso 03 — Java: trabalhando com listas e coleções de dados
 - ⏳ Curso 04 — Java: consumindo API, gravando arquivos e lidando com erros
 - ⏳ Cursos 05–24 — Praticando Java, Spring Boot, DevOps...

@@ -1,4 +1,4 @@
-# Desafio — Conta Bancária no Console
+# Módulo 03 — Desafio: Conta Bancária no Console
 
 Exercício em Java que simula uma conta bancária simples no terminal, permitindo consultar saldo, receber depósitos e realizar transferências.
 
@@ -32,17 +32,11 @@ Exercício em Java que simula uma conta bancária simples no terminal, permitind
 - Necessário ter Java 17 ou superior instalado
 - Recomendada uma IDE como IntelliJ IDEA, Eclipse ou VS Code com suporte a Java
 
-Passos gerais:
+Passos:
 
-1. Garanta que o arquivo da classe principal esteja salvo como:
+1. Localize a classe principal `ContaBancaria.java` dentro de `src/`.
 
-    - `ContaBancaria.java`
-
-2. Localize a classe principal:
-
-    - `ContaBancaria.java`
-
-3. Compile e execute a aplicação pela sua IDE **ou**, via terminal, algo equivalente a:
+2. Compile e execute a aplicação pela sua IDE **ou**, via terminal:
 
     - Compilação:
 
@@ -87,3 +81,4 @@ Informe o valor do depósito: 500
 ****************************************
 Saldo após o depósito: R$ 3000,00
 ****************************************
+```

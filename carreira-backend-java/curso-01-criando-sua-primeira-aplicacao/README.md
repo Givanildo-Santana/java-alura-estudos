@@ -8,28 +8,34 @@ O foco deste curso é dar os primeiros passos na linguagem, escrevendo programas
 
 ## Estrutura do curso
 
-- `modulo-01-atividades-fundamentos/`
+- `modulo-01-primeiro-programa-em-java/`
+  Módulo introdutório sem exercícios práticos:
+  - configuração do ambiente com JDK 17 e IntelliJ IDEA;
+  - diferenças entre JVM, JRE e JDK;
+  - criação e execução do primeiro programa "Alô Mundo!";
+  - entendimento do arquivo `.class` e bytecode.
+
+- `modulo-02-construindo-o-catalogo-de-filmes/`
   Conceitos básicos da linguagem:
   - tipos primitivos e variáveis;
   - operações aritméticas;
   - conversão de tipos (casting);
   - uso básico de `String`;
-  - primeiras impressões no console com `System.out.println` / `System.out.printf`.
+  - impressões no console com `System.out.println` / `System.out.printf`.
 
-- `modulo-02-atividades-condicionais-e-loops/`
+- `modulo-03-controlando-o-fluxo-da-aplicacao/`
   Controle de fluxo e interação com o usuário:
   - leitura de dados com `Scanner`;
   - estruturas condicionais `if`, `if/else`;
   - laços de repetição `for` e `while`;
-  - pequenos programas com menus no console, verificações (par/ímpar, maior/menor, etc.) e repetições.
+  - pequenos programas com menus, verificações e repetições.
 
-- `modulo-03-desafio-conta-bancaria/`
+- `modulo-04-consolidando-conhecimentos/`
   Desafio prático que consolida os conteúdos do curso:
   - simulador de conta bancária no console;
   - consulta de saldo, depósitos e transferências;
   - validação de valores e atualização de saldo;
   - menu interativo em loop.
-  > Detalhes do desafio estão no `README.md` dentro da pasta `modulo-03-desafio-conta-bancaria/`.
 
 - `docs/`
   Documentos relacionados ao curso (certificado de conclusão).
@@ -42,9 +48,9 @@ O foco deste curso é dar os primeiros passos na linguagem, escrevendo programas
    (IntelliJ IDEA, Eclipse, VS Code com extensão de Java, etc.).
 
 2. Navegue até o módulo desejado, por exemplo:
-  - `modulo-01-atividades-fundamentos/src/`
-  - `modulo-02-atividades-condicionais-e-loops/src/`
-  - `modulo-03-desafio-conta-bancaria/src/`
+- `modulo-02-construindo-o-catalogo-de-filmes/src/`
+- `modulo-03-controlando-o-fluxo-da-aplicacao/src/`
+- `modulo-04-consolidando-conhecimentos/src/`
 
 3. Localize a classe que contém o método `main`.
 

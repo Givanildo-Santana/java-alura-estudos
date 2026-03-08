@@ -1,40 +1,48 @@
-# Módulo 02 — Desafios (POO / Encapsulamento)
+# Módulo 02 — Controlando o acesso e a escrita nos dados da aplicação
 
-Este diretório contém os desafios do **Curso 02: Aplicando Orientação a Objetos (Alura)**, módulo **"hora da prática"**.
+Este módulo contém os desafios práticos de encapsulamento do curso **"Java: aplicando a Orientação a Objetos"** da Alura.
 
-## Objetivos praticados
-- Modificadores de acesso (`public` / `private`)
-- Encapsulamento
-- `this`
-- Getters e Setters
-- Organização por pacotes
+---
 
-## Estrutura
+## O que foi aprendido
+
+- Modificadores de acesso (`public` / `private`);
+- Encapsulamento de atributos;
+- Uso de `this`;
+- Getters e Setters;
+- Organização por pacotes.
+
+---
+
+## Estrutura do módulo
+
 Os desafios estão separados por pacote, um para cada exercício:
 
-- `br.com.givanildo.modulo02.desafios.ex01_conta`
-- `br.com.givanildo.modulo02.desafios.ex02_idade`
-- `br.com.givanildo.modulo02.desafios.ex03_produto`
-- `br.com.givanildo.modulo02.desafios.ex04_aluno`
-- `br.com.givanildo.modulo02.desafios.ex05_livro`
+| Pacote | Classe principal | Classe de teste |
+|---|---|---|
+| `ex01_conta` | `ContaBancaria` | `ContaBancariaApp` |
+| `ex02_idade` | `IdadePessoa` | `IdadePessoaApp` |
+| `ex03_produto` | `Produto` | `ProdutoApp` |
+| `ex04_aluno` | `Aluno` | `AlunoApp` |
+| `ex05_livro` | `Livro` | `LivroApp` |
 
-Cada pacote contém:
-- uma classe principal do desafio (ex.: `ContaBancaria`, `Produto`, etc.)
-- uma classe `*App` para executar e testar (ex.: `ContaBancariaApp`, `ProdutoApp`, etc.)
-
-## Como executar
-Abra o projeto no IntelliJ e rode qualquer classe `*App`:
-
-Exemplos:
-- `ContaBancariaApp`
-- `IdadePessoaApp`
-- `ProdutoApp`
-- `AlunoApp`
-- `LivroApp`
+---
 
 ## Desafios
-1. **ContaBancaria**: atributos privados + getters/setters
-2. **IdadePessoa**: getters/setters + `verificarIdade()`
-3. **Produto**: getters/setters + `aplicarDesconto(percentual)`
-4. **Aluno**: getters/setters + `calcularMedia()`
-5. **Livro**: getters/setters + `exibirDetalhes()`
+
+1. **ContaBancaria** — atributos privados + getters/setters
+2. **IdadePessoa** — getters/setters + `verificarIdade()`
+3. **Produto** — getters/setters + `aplicarDesconto(percentual)`
+4. **Aluno** — getters/setters + `calcularMedia()`
+5. **Livro** — getters/setters + `exibirDetalhes()`
+
+---
+
+## Como executar
+
+1. Abra o projeto na sua IDE (IntelliJ IDEA, por exemplo).
+2. Navegue até:
+
+   `curso-02-aplicando-a-orientacao-a-objetos/modulo-02-controlando-o-acesso-e-a-escrita-nos-dados-da-aplicacao/src/`
+
+3. Localize e execute qualquer classe `*App`.

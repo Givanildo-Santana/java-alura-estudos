@@ -12,13 +12,16 @@ O ScreenMatch é um catálogo de filmes e séries no console, usado para pratica
 projeto-screenmatch/src/
 └── br/com/givanildo/screenmatch/
     ├── model/
-    │   ├── Titulo.java      — classe base com atributos e métodos comuns a filmes e séries
-    │   ├── Filme.java       — herda de Titulo, adiciona atributo diretor
-    │   └── Serie.java       — herda de Titulo, calcula duração com base em temporadas e episódios
+    │   ├── Titulo.java       — classe base com atributos e métodos comuns a filmes e séries
+    │   ├── Filme.java        — herda de Titulo, adiciona atributo diretor
+    │   ├── Serie.java        — herda de Titulo, calcula duração com base em temporadas e episódios
+    │   └── Episodio.java     — implementa Classificavel com base no total de avaliações
     ├── calculos/
-    │   └── CalculadoraDeTempo.java  — acumula o tempo total de filmes e séries via polimorfismo
+    │   ├── CalculadoraDeTempo.java   — acumula o tempo total de filmes e séries via polimorfismo
+    │   ├── Classificavel.java        — interface com o método getClassificacao()
+    │   └── FiltroRecomendacao.java   — filtra títulos com base na classificação
     └── principal/
-        └── Principal.java   — classe principal com o método main
+        └── Principal.java    — classe principal com o método main
 ```
 
 ---
@@ -28,9 +31,11 @@ projeto-screenmatch/src/
 - Organização por pacotes (`br.com.givanildo.screenmatch`);
 - Separação de responsabilidades (`model/`, `calculos/` e `principal/`);
 - Encapsulamento com atributos `private`, getters e setters;
-- Herança (`Filme` e `Serie` herdam de `Titulo`);
+- Herança — `Filme` e `Serie` herdam de `Titulo`;
 - Polimorfismo com `@Override` em `getDuracaoEmMinutos()` na classe `Serie`;
 - Polimorfismo na `CalculadoraDeTempo`, que recebe qualquer `Titulo`;
+- Interface `Classificavel` implementada por `Filme`, `Serie` e `Episodio`;
+- `FiltroRecomendacao` que recebe qualquer `Classificavel` — polimorfismo com interface;
 - Métodos de avaliação e cálculo de média.
 
 ---

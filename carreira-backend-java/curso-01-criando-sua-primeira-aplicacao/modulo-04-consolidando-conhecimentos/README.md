@@ -1,60 +1,51 @@
-# Módulo 03 — Desafio: Conta Bancária no Console
+# Módulo 04 — Consolidando conhecimentos
 
-Exercício em Java que simula uma conta bancária simples no terminal, permitindo consultar saldo, receber depósitos e realizar transferências.
+Desafio final do curso que aplica todos os conceitos aprendidos — variáveis, condicionais, loops e leitura de dados — em uma aplicação real de conta bancária no console.
 
-## Conteúdos praticados
+---
 
-- Leitura de dados com `Scanner`
-- Estruturas condicionais (`if/else`)
-- Estrutura de repetição (`while`)
-- Controle de fluxo com menus numéricos
-- Atualização de variáveis (saldo da conta) ao longo da execução
-- Formatação de saída com `System.out.printf`
+## O que foi aprendido
+
+- Leitura de dados com `Scanner`;
+- Estruturas condicionais (`if/else`);
+- Estrutura de repetição (`while`);
+- Controle de fluxo com menus numéricos;
+- Atualização de variáveis ao longo da execução;
+- Formatação de saída com `System.out.printf`.
+
+---
 
 ## Exercício
 
-- **ContaBancaria**: exibe os dados iniciais de uma cliente e permite interagir com a conta por meio de um menu no console:
-    - Mostra os dados fixos da cliente:
+- **ContaBancaria**: simula uma conta bancária simples no terminal com as funcionalidades:
+    - Exibe os dados fixos da cliente:
         - Nome: `Jaqueline Oliveira`
         - Tipo de conta: `Corrente`
         - Saldo inicial: `R$ 2500,00`
-    - Apresenta um menu com as opções:
+    - Menu interativo com as opções:
         1. Consultar saldo
         2. Receber valor (depósito)
         3. Transferir valor
         4. Sair
-    - Atualiza o saldo após cada depósito ou transferência
-    - Valida valores inválidos (depósito/transferência menor ou igual a zero)
-    - Impede transferências com valor maior que o saldo disponível
+    - Atualiza o saldo após cada operação;
+    - Valida valores inválidos (≤ 0);
+    - Impede transferências com valor maior que o saldo disponível.
+
+---
 
 ## Como executar
 
-- Necessário ter Java 17 ou superior instalado
-- Recomendada uma IDE como IntelliJ IDEA, Eclipse ou VS Code com suporte a Java
+1. Localize a classe `ContaBancaria.java` dentro de `src/`.
+2. Execute pela IDE (botão **Run**) ou via terminal:
 
-Passos:
+```bash
+javac ContaBancaria.java
+java ContaBancaria
+```
 
-1. Localize a classe principal `ContaBancaria.java` dentro de `src/`.
-
-2. Compile e execute a aplicação pela sua IDE **ou**, via terminal:
-
-    - Compilação:
-
-      ```bash
-      javac ContaBancaria.java
-      ```
-
-    - Execução:
-
-      ```bash
-      java ContaBancaria
-      ```
-
-   > Os caminhos podem variar conforme a estrutura do seu repositório.
+---
 
 ## Exemplo de uso
-
-Trecho de uma interação típica no console:
 
 ```text
 **************************************************

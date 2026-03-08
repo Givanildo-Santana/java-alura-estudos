@@ -1,18 +1,26 @@
-# Módulo 02 — Condicionais e Loops
+# Módulo 03 — Controlando o fluxo da aplicação
 
-Exercícios focados em `if/else`, leitura com `Scanner` e repetição com `for` / `while`.
+Exercícios focados em condicionais, leitura de dados com `Scanner` e estruturas de repetição.
 
-## Conteúdos praticados
-- Comparações e condicionais (`if/else`)
-- Entrada via teclado (`Scanner`)
-- Estruturas de repetição (`for`, `while`)
-- Operadores (`%`, `==`, `>`, `<`)
-- `break` e controle de fluxo
+---
+
+## O que foi aprendido
+
+- Comparações e condicionais (`if/else`);
+- Entrada de dados via teclado (`Scanner`);
+- Estruturas de repetição (`for`, `while`);
+- Operadores (`%`, `==`, `>`, `<`);
+- Controle de fluxo com `break`.
+
+---
 
 ## Exercícios
-- **PositivoNegativo**: número positivo/negativo (0 tratado como neutro)
-- **CompararNumeros**: comparar dois inteiros
-- **MenuAreas**: menu para calcular área (quadrado/círculo)
-- **Tabuada**: tabuada de 1 a 10
-- **ParOuImpar**: verificar paridade
-- **Fatorial**: cálculo de fatorial
+
+| Classe | Descrição |
+|---|---|
+| `PositivoNegativo` | Verifica se um número é positivo, negativo ou neutro (0) |
+| `CompararNumeros` | Compara dois inteiros e exibe o maior |
+| `MenuAreas` | Menu interativo para calcular área de quadrado ou círculo |
+| `Tabuada` | Exibe a tabuada de 1 a 10 de um número informado |
+| `ParOuImpar` | Verifica se um número é par ou ímpar |
+| `Fatorial` | Calcula o fatorial de um número |

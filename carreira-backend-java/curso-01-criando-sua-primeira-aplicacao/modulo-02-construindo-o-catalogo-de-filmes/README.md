@@ -1,17 +1,26 @@
-# Módulo 01 — Fundamentos (variáveis e tipos)
+# Módulo 02 — Construindo o catálogo de filmes
 
-Exercícios do módulo de fundamentos do curso de Java da Alura.
+Exercícios práticos de variáveis, tipos primitivos e operações básicas em Java.
 
-## Conteúdos praticados
-- Tipos primitivos (`int`, `double`, `char`, `boolean`)
-- `String` e formatação de saída (`printf` / `String.format`)
-- Casting (`double` → `int`)
-- Operações matemáticas básicas
+---
+
+## O que foi aprendido
+
+- Variáveis e tipos primitivos (`int`, `double`, `char`, `boolean`);
+- Representação de textos com `String`;
+- Formatação de saída com `printf` e `String.format`;
+- Casting (`double` → `int`);
+- Operações matemáticas básicas.
+
+---
 
 ## Exercícios
-- **Media**: média de duas notas
-- **Casting**: casting de `double` para `int`
-- **Palavras**: `char` + `String` em uma mensagem
-- **CalculoTotal**: preço × quantidade
-- **ConversaoMoeda**: dólar → real (taxa fixa)
-- **CalculoDesconto**: aplicar percentual de desconto
+
+| Classe | Descrição |
+|---|---|
+| `Media` | Calcula a média de duas notas |
+| `Casting` | Demonstra casting de `double` para `int` |
+| `Palavras` | Trabalha com `char` e `String` em uma mensagem |
+| `CalculoTotal` | Calcula preço × quantidade |
+| `ConversaoMoeda` | Converte dólar para real com taxa fixa |
+| `CalculoDesconto` | Aplica percentual de desconto sobre um valor |

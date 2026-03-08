@@ -48,9 +48,10 @@ A carreira é dividida em **Base** + **3 Níveis**, totalizando 63 cursos e mais
   - criação de menus no console.
 
   Estrutura do curso:
-  - `modulo-01-atividades-fundamentos/` — variáveis, casting, strings e operações
-  - `modulo-02-atividades-condicionais-e-loops/` — `Scanner`, `if/else`, `for/while` (menu, tabuada, par/ímpar, fatorial)
-  - `modulo-03-desafio-conta-bancaria/` — simulador de conta bancária no console (consulta de saldo, depósito e transferência)
+  - `modulo-01-primeiro-programa-em-java/` — configuração do ambiente, JVM/JRE/JDK, primeiro programa
+  - `modulo-02-construindo-o-catalogo-de-filmes/` — variáveis, tipos primitivos, casting e operações
+  - `modulo-03-controlando-o-fluxo-da-aplicacao/` — `Scanner`, `if/else`, `for/while` (menu, tabuada, par/ímpar, fatorial)
+  - `modulo-04-consolidando-conhecimentos/` — simulador de conta bancária no console
   - `docs/` — certificado do curso
 
 - `curso-02-aplicando-a-orientacao-a-objetos/`
@@ -63,9 +64,10 @@ A carreira é dividida em **Base** + **3 Níveis**, totalizando 63 cursos e mais
   - modelagem de um projeto real (ScreenMatch).
 
   Estrutura do curso:
-  - `modulo-01-atividades-poo-basicas/` — classes básicas (Pessoa, Calculadora, Música, Carro, Aluno) com menu interativo
-  - `modulo-02-desafios-encapsulamento/` — 5 desafios de encapsulamento com pacotes separados por exercício
-  - `modulo-03-heranca-e-polimorfismo/` — herança, polimorfismo e modificador `protected` *(em andamento)*
+  - `modulo-01-modelando-o-screenmatch/` — classes básicas (Pessoa, Calculadora, Música, Carro, Aluno) com menu interativo
+  - `modulo-02-controlando-o-acesso-e-a-escrita-nos-dados-da-aplicacao/` — 5 desafios de encapsulamento com pacotes separados por exercício
+  - `modulo-03-reaproveitando-caracteristicas-e-comportamentos/` — herança, polimorfismo e modificador `protected`
+  - `modulo-04-aplicando-comportamentos-em-comum/` — interfaces, contratos e polimorfismo com `implements`
   - `projeto-screenmatch/` — projeto principal do curso, evoluído ao longo dos módulos
 
 - *(em breve)* `curso-03-trabalhando-com-listas-e-colecoes/`
@@ -91,14 +93,15 @@ A carreira é dividida em **Base** + **3 Níveis**, totalizando 63 cursos e mais
 
 ### Nível 1 — Aplicações Web com Java e Spring
 - ✅ Curso 01 — Java: criando a sua primeira aplicação
-  - ✅ Módulo 01 — Atividades de Fundamentos
-  - ✅ Módulo 02 — Atividades de Condicionais e Loops
-  - ✅ Módulo 03 — Desafio: Conta Bancária no Console
-- 🔄 Curso 02 — Java: aplicando a Orientação a Objetos *(48% concluído)*
-  - ✅ Módulo 01 — Atividades básicas de POO
-  - ✅ Módulo 02 — Desafios de Encapsulamento
-  - 🔄 Módulo 03 — Herança e Polimorfismo *(em andamento)*
-  - ⏳ Módulo 04 — Aplicando comportamentos em comum
+  - ✅ Módulo 01 — Primeiro programa em Java
+  - ✅ Módulo 02 — Construindo o catálogo de filmes
+  - ✅ Módulo 03 — Controlando o fluxo da aplicação
+  - ✅ Módulo 04 — Consolidando conhecimentos
+- 🔄 Curso 02 — Java: aplicando a Orientação a Objetos *(80% concluído)*
+  - ✅ Módulo 01 — Modelando o ScreenMatch
+  - ✅ Módulo 02 — Controlando o acesso e a escrita nos dados da aplicação
+  - ✅ Módulo 03 — Reaproveitando características e comportamentos
+  - ✅ Módulo 04 — Aplicando comportamentos em comum
   - ⏳ Módulo 05 — Consolidando conhecimentos
 - ⏳ Curso 03 — Java: trabalhando com listas e coleções de dados
 - ⏳ Curso 04 — Java: consumindo API, gravando arquivos e lidando com erros

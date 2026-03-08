@@ -8,31 +8,41 @@ O foco deste curso é aprender e aplicar os conceitos fundamentais da Programaç
 
 ## Estrutura do curso
 
-- `modulo-01-atividades-poo-basicas/`
+- `modulo-01-modelando-o-screenmatch/`
   Exercícios práticos dos conceitos iniciais de POO:
-    - criação de classes, atributos e métodos;
-    - instanciação de objetos;
-    - interação com o usuário via `Scanner`;
-    - menu interativo no console para testar os objetos.
+  - criação de classes, atributos e métodos;
+  - instanciação de objetos;
+  - interação com o usuário via `Scanner`;
+  - menu interativo no console para testar os objetos.
 
-- `modulo-02-desafios-encapsulamento/`
+- `modulo-02-controlando-o-acesso-e-a-escrita-nos-dados-da-aplicacao/`
   Desafios práticos de encapsulamento:
-    - modificadores de acesso (`public` / `private`);
-    - getters e setters;
-    - uso de `this`;
-    - organização por pacotes.
+  - modificadores de acesso (`public` / `private`);
+  - getters e setters;
+  - uso de `this`;
+  - organização por pacotes.
 
-- `modulo-03-heranca-e-polimorfismo/` *(em andamento)*
-    - herança entre classes;
-    - reaproveitamento de comportamentos;
-    - polimorfismo com herança;
-    - modificador `protected`.
+- `modulo-03-reaproveitando-caracteristicas-e-comportamentos/`
+  Desafios práticos de herança e polimorfismo:
+  - herança entre classes com `extends`;
+  - reaproveitamento de comportamentos;
+  - polimorfismo com `@Override`;
+  - modificador `protected`.
+
+- `modulo-04-aplicando-comportamentos-em-comum/`
+  Desafios práticos de interfaces:
+  - criação e uso de interfaces com `implements`;
+  - contrato entre classes;
+  - polimorfismo com interfaces;
+  - aplicação em contextos variados (conversão, cálculo, filtragem).
 
 - `projeto-screenmatch/`
   Projeto principal do curso, desenvolvido e evoluído ao longo dos módulos:
-    - modelagem de filmes e séries;
-    - separação em pacotes `model/` e `principal/`;
-    - aplicação progressiva dos conceitos de POO.
+  - modelagem de filmes, séries e episódios;
+  - separação em pacotes `model/`, `calculos/` e `principal/`;
+  - herança com `Titulo`, `Filme` e `Serie`;
+  - interface `Classificavel` e `FiltroRecomendacao`;
+  - aplicação progressiva dos conceitos de POO.
 
 ---
 
@@ -40,9 +50,9 @@ O foco deste curso é aprender e aplicar os conceitos fundamentais da Programaç
 
 1. Abra o projeto na sua IDE de preferência (IntelliJ IDEA, por exemplo).
 2. Navegue até o módulo desejado, por exemplo:
-    - `modulo-01-atividades-poo-basicas/src/`
-    - `modulo-02-desafios-encapsulamento/src/`
-    - `projeto-screenmatch/src/`
+  - `modulo-01-modelando-o-screenmatch/src/`
+  - `modulo-02-controlando-o-acesso-e-a-escrita-nos-dados-da-aplicacao/src/`
+  - `projeto-screenmatch/src/`
 3. Localize a classe que contém o método `main`.
 4. Execute a aplicação pelo botão de **Run** da IDE.
 
@@ -50,8 +60,8 @@ O foco deste curso é aprender e aplicar os conceitos fundamentais da Programaç
 
 ## Progresso
 
-- ✅ Módulo 01 — Atividades básicas de POO
-- ✅ Módulo 02 — Desafios de Encapsulamento
-- 🔄 Módulo 03 — Herança e Polimorfismo *(em andamento)*
-- ⏳ Módulo 04 — Aplicando comportamentos em comum
+- ✅ Módulo 01 — Modelando o ScreenMatch
+- ✅ Módulo 02 — Controlando o acesso e a escrita nos dados da aplicação
+- ✅ Módulo 03 — Reaproveitando características e comportamentos
+- ✅ Módulo 04 — Aplicando comportamentos em comum
 - ⏳ Módulo 05 — Consolidando conhecimentos

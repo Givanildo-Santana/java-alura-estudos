@@ -1,7 +1,7 @@
-package br.com.givanildo.modulo04.desafios.CalculadorTaxa.principal;
+package br.com.givanildo.modulo04.desafios.ex05_CalculadorTaxa.principal;
 
-import br.com.givanildo.modulo04.desafios.CalculadorTaxa.model.Livro;
-import br.com.givanildo.modulo04.desafios.CalculadorTaxa.model.ProdutoFisico;
+import br.com.givanildo.modulo04.desafios.ex05_CalculadorTaxa.model.Livro;
+import br.com.givanildo.modulo04.desafios.ex05_CalculadorTaxa.model.ProdutoFisico;
 
 import java.util.Scanner;
 

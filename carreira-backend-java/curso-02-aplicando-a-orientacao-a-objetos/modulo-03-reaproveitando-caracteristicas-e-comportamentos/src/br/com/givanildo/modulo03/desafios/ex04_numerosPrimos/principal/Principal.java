@@ -59,5 +59,7 @@ public class Principal {
             geradorPrimo.gerarProximoPrimo(numero);
 
         }
+
+    leitura.close();
     }
 }

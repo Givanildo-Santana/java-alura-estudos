@@ -1,6 +1,7 @@
 package br.com.givanildo.screenmatch.model;
+import br.com.givanildo.screenmatch.calculos.Classificavel;
 
-public class Serie extends Titulo{
+public class Serie extends Titulo implements Classificavel {
     private int temporadas;
     private boolean ativa;
     private int episodiosPorTemporada;
@@ -44,4 +45,18 @@ public class Serie extends Titulo{
         return temporadas * episodiosPorTemporada * minutosPorEpisodio;
     }
 
+    public void exibeFichaTecnica() {
+        System.out.println(" ");
+        System.out.println("Nome da Serie: " + getNome());
+        System.out.println("Ano de lançamento: " + getAnoDeLancamento());
+        System.out.println("Duração em minutos: " + getDuracaoEmMinutos());
+        System.out.println("Incluido no plano: " + isIncluidoNoPlano());
+
+    }
+
+
+    @Override
+    public int getClassificacao() {
+        return (int) (pegarMedia() / 2);
+    }
 }

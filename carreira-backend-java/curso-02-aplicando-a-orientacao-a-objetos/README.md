@@ -36,6 +36,14 @@ O foco deste curso é aprender e aplicar os conceitos fundamentais da Programaç
   - polimorfismo com interfaces;
   - aplicação em contextos variados (conversão, cálculo, filtragem).
 
+- `modulo-05-consolidando-conhecimentos/`
+  Desafio final que aplica todos os conceitos do curso:
+  - abstração com classe base `Audio`;
+  - herança com `Musica` e `Podcast`;
+  - polimorfismo com `@Override` em `getClassificacao()`;
+  - separação de responsabilidades com a classe `Preferidas`;
+  - organização por pacotes `model/` e `principal/`.
+
 - `projeto-screenmatch/`
   Projeto principal do curso, desenvolvido e evoluído ao longo dos módulos:
   - modelagem de filmes, séries e episódios;
@@ -44,15 +52,19 @@ O foco deste curso é aprender e aplicar os conceitos fundamentais da Programaç
   - interface `Classificavel` e `FiltroRecomendacao`;
   - aplicação progressiva dos conceitos de POO.
 
+- `docs/`
+  Documentos relacionados ao curso (certificado de conclusão).
+
 ---
 
 ## Como executar os exercícios
 
 1. Abra o projeto na sua IDE de preferência (IntelliJ IDEA, por exemplo).
 2. Navegue até o módulo desejado, por exemplo:
-  - `modulo-01-modelando-o-screenmatch/src/`
-  - `modulo-02-controlando-o-acesso-e-a-escrita-nos-dados-da-aplicacao/src/`
-  - `projeto-screenmatch/src/`
+- `modulo-01-modelando-o-screenmatch/src/`
+- `modulo-02-controlando-o-acesso-e-a-escrita-nos-dados-da-aplicacao/src/`
+- `modulo-05-consolidando-conhecimentos/src/`
+- `projeto-screenmatch/src/`
 3. Localize a classe que contém o método `main`.
 4. Execute a aplicação pelo botão de **Run** da IDE.
 
@@ -64,4 +76,4 @@ O foco deste curso é aprender e aplicar os conceitos fundamentais da Programaç
 - ✅ Módulo 02 — Controlando o acesso e a escrita nos dados da aplicação
 - ✅ Módulo 03 — Reaproveitando características e comportamentos
 - ✅ Módulo 04 — Aplicando comportamentos em comum
-- ⏳ Módulo 05 — Consolidando conhecimentos
+- ✅ Módulo 05 — Consolidando conhecimentos

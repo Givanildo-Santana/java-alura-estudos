@@ -1,4 +1,4 @@
-package br.com.givanildo.modulo05.ex.model;
+package br.com.givanildo.modulo05.ex_fixacao.model;
 
 public class Preferidas {
 

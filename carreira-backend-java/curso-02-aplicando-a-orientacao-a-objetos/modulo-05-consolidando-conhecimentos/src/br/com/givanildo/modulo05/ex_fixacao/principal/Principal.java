@@ -1,8 +1,8 @@
-package br.com.givanildo.modulo05.ex.principal;
+package br.com.givanildo.modulo05.ex_fixacao.principal;
 
-import br.com.givanildo.modulo05.ex.model.Musica;
-import br.com.givanildo.modulo05.ex.model.Podcast;
-import br.com.givanildo.modulo05.ex.model.Preferidas;
+import br.com.givanildo.modulo05.ex_fixacao.model.Musica;
+import br.com.givanildo.modulo05.ex_fixacao.model.Podcast;
+import br.com.givanildo.modulo05.ex_fixacao.model.Preferidas;
 
 import java.util.Scanner;
 

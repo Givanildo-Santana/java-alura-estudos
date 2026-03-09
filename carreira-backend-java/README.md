@@ -68,7 +68,9 @@ A carreira é dividida em **Base** + **3 Níveis**, totalizando 63 cursos e mais
   - `modulo-02-controlando-o-acesso-e-a-escrita-nos-dados-da-aplicacao/` — 5 desafios de encapsulamento com pacotes separados por exercício
   - `modulo-03-reaproveitando-caracteristicas-e-comportamentos/` — herança, polimorfismo e modificador `protected`
   - `modulo-04-aplicando-comportamentos-em-comum/` — interfaces, contratos e polimorfismo com `implements`
+  - `modulo-05-consolidando-conhecimentos/` — desafio final com Audio, Musica, Podcast e Preferidas
   - `projeto-screenmatch/` — projeto principal do curso, evoluído ao longo dos módulos
+  - `docs/` — certificado do curso
 
 - *(em breve)* `curso-03-trabalhando-com-listas-e-colecoes/`
 - *(em breve)* `curso-04-consumindo-api-gravando-arquivos-lidando-com-erros/`
@@ -97,12 +99,12 @@ A carreira é dividida em **Base** + **3 Níveis**, totalizando 63 cursos e mais
   - ✅ Módulo 02 — Construindo o catálogo de filmes
   - ✅ Módulo 03 — Controlando o fluxo da aplicação
   - ✅ Módulo 04 — Consolidando conhecimentos
-- 🔄 Curso 02 — Java: aplicando a Orientação a Objetos *(80% concluído)*
+- ✅ Curso 02 — Java: aplicando a Orientação a Objetos
   - ✅ Módulo 01 — Modelando o ScreenMatch
   - ✅ Módulo 02 — Controlando o acesso e a escrita nos dados da aplicação
   - ✅ Módulo 03 — Reaproveitando características e comportamentos
   - ✅ Módulo 04 — Aplicando comportamentos em comum
-  - ⏳ Módulo 05 — Consolidando conhecimentos
+  - ✅ Módulo 05 — Consolidando conhecimentos
 - ⏳ Curso 03 — Java: trabalhando com listas e coleções de dados
 - ⏳ Curso 04 — Java: consumindo API, gravando arquivos e lidando com erros
 - ⏳ Cursos 05–24 — Praticando Java, Spring Boot, DevOps...

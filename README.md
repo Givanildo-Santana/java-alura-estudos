@@ -29,7 +29,9 @@ java-alura-estudos/
     │   ├── modulo-02-controlando-o-acesso-e-a-escrita-nos-dados-da-aplicacao/
     │   ├── modulo-03-reaproveitando-caracteristicas-e-comportamentos/
     │   ├── modulo-04-aplicando-comportamentos-em-comum/
-    │   └── projeto-screenmatch/
+    │   ├── modulo-05-consolidando-conhecimentos/
+    │   ├── projeto-screenmatch/
+    │   └── docs/
     └── ...
 ```
 
@@ -64,7 +66,7 @@ A carreira é dividida em **Base** + **3 Níveis**:
 
 - ✅ Base — Fundamentos de Programação
 - ✅ Curso 01 — Java: criando a sua primeira aplicação
-- 🔄 Curso 02 — Java: aplicando a Orientação a Objetos *(80%)*
+- ✅ Curso 02 — Java: aplicando a Orientação a Objetos
 - ⏳ Curso 03 — Java: trabalhando com listas e coleções de dados
 - ⏳ Curso 04 — Java: consumindo API, gravando arquivos e lidando com erros
 - ⏳ Cursos 05–24 — Spring Boot, DevOps, testes...

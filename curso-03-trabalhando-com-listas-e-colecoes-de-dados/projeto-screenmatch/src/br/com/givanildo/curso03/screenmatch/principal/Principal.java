@@ -34,7 +34,9 @@ public class Principal {
         filmes.add(outro);
 
         System.out.println(" ");
+        System.out.println("Tamanho da lista de filmes: " + filmes.size());
         System.out.println("Filmes: " + filmes);
+        System.out.println("Primeiro filme da lista: " + filmes.get(0));
 
         Serie serie = new Serie();
         serie.setNome("Loki");

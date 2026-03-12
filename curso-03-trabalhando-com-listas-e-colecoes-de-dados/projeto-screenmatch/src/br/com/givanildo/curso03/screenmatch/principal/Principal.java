@@ -12,9 +12,7 @@ public class Principal {
         FiltroRecomendacao filtro = new FiltroRecomendacao();
         ArrayList<Filme> filmes = new ArrayList<>();
 
-        Filme favorito = new Filme();
-        favorito.setNome("Vingadores: Ultimato");
-        favorito.setAnoDeLancamento(2019);
+        Filme favorito = new Filme("Vingadores: Ultimato", 2019);
         favorito.setDuracaoEmMinutos(181);
         favorito.setIncluidoNoPlano(true);
         favorito.exibeFichaTecnica();
@@ -22,9 +20,7 @@ public class Principal {
         favorito.avalia(9);
         filtro.filtra(favorito);
 
-        Filme outro = new Filme();
-        outro.setNome("Capitão América: O Primeiro Vingador");
-        outro.setAnoDeLancamento(2011);
+        Filme outro = new Filme("Capitão América: O Primeiro Vingador", 2011);
         outro.setDuracaoEmMinutos(124);
         outro.setIncluidoNoPlano(true);
         outro.exibeFichaTecnica();
@@ -38,9 +34,7 @@ public class Principal {
         System.out.println("Filmes: " + filmes);
         System.out.println("Primeiro filme da lista: " + filmes.get(0));
 
-        Serie serie = new Serie();
-        serie.setNome("Loki");
-        serie.setAnoDeLancamento(2021);
+        Serie serie = new Serie("Loki", 2021);
         serie.setIncluidoNoPlano(true);
         serie.setAtiva(true);
         serie.setTemporadas(2);

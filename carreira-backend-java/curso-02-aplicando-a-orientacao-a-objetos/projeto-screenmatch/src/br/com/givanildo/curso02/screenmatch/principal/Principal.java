@@ -1,8 +1,8 @@
-package br.com.givanildo.screenmatch.principal;
-import br.com.givanildo.screenmatch.calculos.FiltroRecomendacao;
-import br.com.givanildo.screenmatch.model.Filme;
-import br.com.givanildo.screenmatch.model.Serie;
-import br.com.givanildo.screenmatch.calculos.CalculadoraDeTempo;
+package br.com.givanildo.curso02.screenmatch.principal;
+import br.com.givanildo.curso02.screenmatch.calculos.FiltroRecomendacao;
+import br.com.givanildo.curso02.screenmatch.model.Filme;
+import br.com.givanildo.curso02.screenmatch.model.Serie;
+import br.com.givanildo.curso02.screenmatch.calculos.CalculadoraDeTempo;
 
 public class Principal {
     public static void main(String[] args) {

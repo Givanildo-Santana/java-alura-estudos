@@ -1,5 +1,5 @@
-package br.com.givanildo.screenmatch.model;
-import br.com.givanildo.screenmatch.calculos.Classificavel;
+package br.com.givanildo.curso02.screenmatch.model;
+import br.com.givanildo.curso02.screenmatch.calculos.Classificavel;
 
 public class Serie extends Titulo implements Classificavel {
     private int temporadas;

@@ -1,4 +1,4 @@
-package br.com.givanildo.screenmatch.model;
+package br.com.givanildo.curso02.screenmatch.model;
 
 public class Titulo {
     private String nome;

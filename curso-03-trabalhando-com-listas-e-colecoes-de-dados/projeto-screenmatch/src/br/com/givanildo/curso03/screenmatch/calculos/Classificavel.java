@@ -1,4 +1,4 @@
-package br.com.givanildo.screenmatch.calculos;
+package br.com.givanildo.curso03.screenmatch.calculos;
 
 public interface Classificavel {
 

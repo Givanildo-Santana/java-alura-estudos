@@ -1,4 +1,6 @@
-package br.com.givanildo.screenmatch.calculos;
+package br.com.givanildo.curso03.screenmatch.calculos;
+
+import br.com.givanildo.curso03.screenmatch.calculos.Classificavel;
 
 public class FiltroRecomendacao {
 

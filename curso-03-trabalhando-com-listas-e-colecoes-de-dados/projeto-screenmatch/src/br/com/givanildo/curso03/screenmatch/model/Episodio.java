@@ -1,6 +1,6 @@
-package br.com.givanildo.screenmatch.model;
+package br.com.givanildo.curso03.screenmatch.model;
 
-import br.com.givanildo.screenmatch.calculos.Classificavel;
+import br.com.givanildo.curso03.screenmatch.calculos.Classificavel;
 
 public class Episodio implements Classificavel {
 

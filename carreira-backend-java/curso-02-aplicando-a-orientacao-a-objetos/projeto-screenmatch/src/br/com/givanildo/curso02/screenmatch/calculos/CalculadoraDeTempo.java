@@ -1,6 +1,6 @@
-package br.com.givanildo.screenmatch.calculos;
+package br.com.givanildo.curso02.screenmatch.calculos;
 
-import br.com.givanildo.screenmatch.model.Titulo;
+import br.com.givanildo.curso02.screenmatch.model.Titulo;
 
 public class CalculadoraDeTempo {
     private int tempoTotal;

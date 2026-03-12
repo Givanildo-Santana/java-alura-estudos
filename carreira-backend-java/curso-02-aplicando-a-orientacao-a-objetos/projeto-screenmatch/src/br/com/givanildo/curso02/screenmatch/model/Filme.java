@@ -1,6 +1,6 @@
-package br.com.givanildo.screenmatch.model;
+package br.com.givanildo.curso02.screenmatch.model;
 
-import br.com.givanildo.screenmatch.calculos.Classificavel;
+import br.com.givanildo.curso02.screenmatch.calculos.Classificavel;
 
 public class Filme extends Titulo implements Classificavel {
 

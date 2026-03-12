@@ -1,4 +1,4 @@
-package br.com.givanildo.modulo02.desafios.ex04_aluno;
+package br.com.givanildo.curoso03.modulo02.desafios.ex04_aluno;
 
 public class AlunoApp {
 

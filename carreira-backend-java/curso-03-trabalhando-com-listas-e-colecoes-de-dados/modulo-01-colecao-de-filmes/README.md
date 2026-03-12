@@ -24,7 +24,7 @@ Este módulo apresenta o uso de listas em Java com a classe `ArrayList`, aplicad
 
 | Pacote | Classes | Descrição |
 |---|---|---|
-| `modulo01.desafios` | `Pessoa`, `Principal` | Cria lista de pessoas, exibe tamanho, primeiro elemento e lista completa |
+| `modulo01.desafios` | `Pessoa`, `principal.br.com.givanildo.modulo02.desafios.Principal` | Cria lista de pessoas, exibe tamanho, primeiro elemento e lista completa |
 
 ---
 
@@ -35,5 +35,5 @@ Este módulo apresenta o uso de listas em Java com a classe `ArrayList`, aplicad
 
    `curso-03-trabalhando-com-listas-e-colecoes-de-dados/src/`
 
-3. Localize a classe `Principal` do pacote desejado.
+3. Localize a classe `principal.br.com.givanildo.modulo02.desafios.Principal` do pacote desejado.
 4. Execute a aplicação (botão de **Run**).

@@ -1,4 +1,4 @@
-package br.com.givanildo.modulo02.desafios.ex02_idade;
+package br.com.givanildo.curoso03.modulo02.desafios.ex02_idade;
 
 public class IdadePessoaApp {
 

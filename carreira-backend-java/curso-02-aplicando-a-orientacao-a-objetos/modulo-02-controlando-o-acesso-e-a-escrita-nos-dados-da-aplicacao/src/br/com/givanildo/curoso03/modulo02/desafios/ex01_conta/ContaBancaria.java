@@ -1,4 +1,4 @@
-package br.com.givanildo.modulo02.desafios.ex01_conta;
+package br.com.givanildo.curoso03.modulo02.desafios.ex01_conta;
 
 public class ContaBancaria {
 

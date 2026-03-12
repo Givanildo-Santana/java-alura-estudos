@@ -36,5 +36,5 @@ Os desafios estão separados por pacote:
 
    `curso-02-aplicando-a-orientacao-a-objetos/modulo-04-aplicando-comportamentos-em-comum/src/`
 
-3. Localize a classe `Principal` dentro do pacote do exercício desejado.
+3. Localize a classe `principal.br.com.givanildo.modulo02.desafios.Principal` dentro do pacote do exercício desejado.
 4. Execute a aplicação (botão de **Run**).

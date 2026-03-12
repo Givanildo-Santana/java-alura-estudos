@@ -1,4 +1,4 @@
-package br.com.givanildo.modulo02.desafios.ex05_livro;
+package br.com.givanildo.curoso03.modulo02.desafios.ex05_livro;
 
 public class LivroApp {
 

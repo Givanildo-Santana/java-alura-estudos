@@ -21,7 +21,7 @@ projeto-screenmatch/src/
     │   ├── Classificavel.java        — interface com o método getClassificacao()
     │   └── FiltroRecomendacao.java   — filtra títulos com base na classificação
     └── principal/
-        └── Principal.java    — classe principal com o método main
+        └── principal.br.com.givanildo.modulo02.desafios.Principal.java    — classe principal com o método main
 ```
 
 ---
@@ -47,5 +47,5 @@ projeto-screenmatch/src/
 
    `projeto-screenmatch/src/br/com/givanildo/screenmatch/principal/`
 
-3. Localize a classe `Principal`.
+3. Localize a classe `principal.br.com.givanildo.modulo02.desafios.Principal`.
 4. Execute a aplicação pelo botão de **Run** da IDE.

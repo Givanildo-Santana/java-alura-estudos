@@ -25,7 +25,7 @@ br.com.givanildo.modulo05.ex/
 │   ├── Podcast.java     — herda Audio, adiciona apresentador e descricao
 │   └── Preferidas.java  — recebe qualquer Audio e exibe mensagem com base na classificacao
 └── principal/
-    └── Principal.java   — menu interativo para cadastrar música ou podcast e verificar preferência
+    └── principal.br.com.givanildo.modulo02.desafios.Principal.java   — menu interativo para cadastrar música ou podcast e verificar preferência
 ```
 
 ---
@@ -48,5 +48,5 @@ br.com.givanildo.modulo05.ex/
 
    `curso-02-aplicando-a-orientacao-a-objetos/modulo-05-consolidando-conhecimentos/src/`
 
-3. Localize a classe `Principal`.
+3. Localize a classe `principal.br.com.givanildo.modulo02.desafios.Principal`.
 4. Execute a aplicação (botão de **Run**) e siga o menu no console.

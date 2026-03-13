@@ -16,7 +16,7 @@ public class Principal {
 
         System.out.println("Lista com ArrayList");
         System.out.println(lista);
-        
+
 
         lista = new LinkedList<>();
         lista.add("Quatro");

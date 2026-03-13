@@ -1,12 +1,11 @@
-package br.com.givanildo.modulo04.ex01_screenmatch_aplicando_comparable.principal;
+package br.com.givanildo.modulo04.ex_screenmatch_aplicando_comparable.principal;
 
-import br.com.givanildo.modulo04.ex01_screenmatch_aplicando_comparable.calculos.FiltroRecomendacao;
-import br.com.givanildo.modulo04.ex01_screenmatch_aplicando_comparable.model.Filme;
-import br.com.givanildo.modulo04.ex01_screenmatch_aplicando_comparable.model.Serie;
-import br.com.givanildo.modulo04.ex01_screenmatch_aplicando_comparable.model.Titulo;
+import br.com.givanildo.modulo04.ex_screenmatch_aplicando_comparable.calculos.FiltroRecomendacao;
+import br.com.givanildo.modulo04.ex_screenmatch_aplicando_comparable.model.Filme;
+import br.com.givanildo.modulo04.ex_screenmatch_aplicando_comparable.model.Serie;
+import br.com.givanildo.modulo04.ex_screenmatch_aplicando_comparable.model.Titulo;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 

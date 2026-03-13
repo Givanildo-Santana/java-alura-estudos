@@ -1,4 +1,4 @@
-package br.com.givanildo.modulo04.ex01_screenmatch_aplicando_comparable.model;
+package br.com.givanildo.modulo04.ex_screenmatch_aplicando_comparable.model;
 
 public class Titulo implements  Comparable<Titulo>{
     private String nome;

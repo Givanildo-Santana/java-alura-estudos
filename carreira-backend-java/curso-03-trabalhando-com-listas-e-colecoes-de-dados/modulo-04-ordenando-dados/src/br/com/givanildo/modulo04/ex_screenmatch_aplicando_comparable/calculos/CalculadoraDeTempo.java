@@ -1,6 +1,6 @@
-package br.com.givanildo.modulo04.ex01_screenmatch_aplicando_comparable.calculos;
+package br.com.givanildo.modulo04.ex_screenmatch_aplicando_comparable.calculos;
 
-import br.com.givanildo.modulo04.ex01_screenmatch_aplicando_comparable.model.Titulo;
+import br.com.givanildo.modulo04.ex_screenmatch_aplicando_comparable.model.Titulo;
 
 public class CalculadoraDeTempo {
     private int tempoTotal;

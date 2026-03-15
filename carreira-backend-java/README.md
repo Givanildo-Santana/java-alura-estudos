@@ -72,7 +72,23 @@ A carreira é dividida em **Base** + **3 Níveis**, totalizando 63 cursos e mais
   - `projeto-screenmatch/` — projeto principal do curso, evoluído ao longo dos módulos
   - `docs/` — certificado do curso
 
-- *(em breve)* `curso-03-trabalhando-com-listas-e-colecoes/`
+- `curso-03-trabalhando-com-listas-e-colecoes-de-dados/`
+  Curso de listas e coleções, focado em:
+  - `ArrayList` e manipulação com `add()`, `size()` e `get()`;
+  - construtores e uso de `super`;
+  - foreach, casting e `instanceof`;
+  - ordenação com `Collections.sort`, `Comparable` e `Comparator`;
+  - interface `List` e polimorfismo com `ArrayList` e `LinkedList`.
+
+  Estrutura do curso:
+  - `modulo-01-colecao-de-filmes/` — ArrayList, toString e manipulação de listas
+  - `modulo-02-construindo-objetos/` — construtores e super
+  - `modulo-03-lista-de-objetos-distintos/` — foreach, casting e instanceof
+  - `modulo-04-ordenando-dados/` — Comparable, Comparator e interface List
+  - `modulo-05-consolidando-conhecimentos/` — desafio final com cartão de crédito e lista de compras
+  - `projeto-screenmatch/` — projeto ScreenMatch evoluído com os conceitos do curso
+  - `docs/` — certificado do curso
+
 - *(em breve)* `curso-04-consumindo-api-gravando-arquivos-lidando-com-erros/`
 
 ---
@@ -105,7 +121,12 @@ A carreira é dividida em **Base** + **3 Níveis**, totalizando 63 cursos e mais
   - ✅ Módulo 03 — Reaproveitando características e comportamentos
   - ✅ Módulo 04 — Aplicando comportamentos em comum
   - ✅ Módulo 05 — Consolidando conhecimentos
-- ⏳ Curso 03 — Java: trabalhando com listas e coleções de dados
+- ✅ Curso 03 — Java: trabalhando com listas e coleções de dados
+  - ✅ Módulo 01 — Coleção de filmes
+  - ✅ Módulo 02 — Construindo objetos
+  - ✅ Módulo 03 — Lista de objetos distintos
+  - ✅ Módulo 04 — Ordenando dados
+  - ✅ Módulo 05 — Consolidando conhecimentos
 - ⏳ Curso 04 — Java: consumindo API, gravando arquivos e lidando com erros
 - ⏳ Cursos 05–24 — Praticando Java, Spring Boot, DevOps...
 

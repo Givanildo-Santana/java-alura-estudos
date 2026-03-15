@@ -32,6 +32,14 @@ java-alura-estudos/
     │   ├── modulo-05-consolidando-conhecimentos/
     │   ├── projeto-screenmatch/
     │   └── docs/
+    ├── curso-03-trabalhando-com-listas-e-colecoes-de-dados/
+    │   ├── modulo-01-colecao-de-filmes/
+    │   ├── modulo-02-construindo-objetos/
+    │   ├── modulo-03-lista-de-objetos-distintos/
+    │   ├── modulo-04-ordenando-dados/
+    │   ├── modulo-05-consolidando-conhecimentos/
+    │   ├── projeto-screenmatch/
+    │   └── docs/
     └── ...
 ```
 
@@ -67,7 +75,7 @@ A carreira é dividida em **Base** + **3 Níveis**:
 - ✅ Base — Fundamentos de Programação
 - ✅ Curso 01 — Java: criando a sua primeira aplicação
 - ✅ Curso 02 — Java: aplicando a Orientação a Objetos
-- ⏳ Curso 03 — Java: trabalhando com listas e coleções de dados
+- ✅ Curso 03 — Java: trabalhando com listas e coleções de dados
 - ⏳ Curso 04 — Java: consumindo API, gravando arquivos e lidando com erros
 - ⏳ Cursos 05–24 — Spring Boot, DevOps, testes...
 - ⏳ Nível 2 — APIs Seguras, Microsserviços e CI/CD

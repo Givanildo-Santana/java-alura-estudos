@@ -1,5 +1,7 @@
 package br.com.givanildo.curso04.screenmatch.model;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Titulo {
     private String nome;
     private int anoDeLancamento;
@@ -12,6 +14,17 @@ public class Titulo {
             this.nome = nome;
             this.anoDeLancamento = anoDeLancamento;
         }
+
+        public Titulo(TituloOMDb tituloOMDb){
+            this.nome = tituloOMDb.title();
+            this.anoDeLancamento = Integer.valueOf(tituloOMDb.year().replaceAll("[^0-9]", ""));
+            this.duracaoEmMinutos = Integer.valueOf(tituloOMDb.runtime().replaceAll("[^0-9]", ""));
+        }
+
+    @Override
+    public String toString() {
+        return String.format("Nome: %s\nAno de lançamento: %d\nDuração: %d min",getNome(),getAnoDeLancamento(),getDuracaoEmMinutos());
+    }
 
     public void exibeFichaTecnica() {
         System.out.println(" ");

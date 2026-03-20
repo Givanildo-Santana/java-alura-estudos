@@ -1,6 +1,6 @@
 package br.com.givanildo.curso04.screenmatch.model;
 
-import com.google.gson.annotations.SerializedName;
+import br.com.givanildo.curso04.screenmatch.excecao.ErroDeConversaoDeAnoException;
 
 public class Titulo {
     private String nome;
@@ -10,16 +10,22 @@ public class Titulo {
     private double somaDasAvaliacoes;
     private int totalDeAvaliacoes;
 
-        public Titulo(String nome, int anoDeLancamento){
-            this.nome = nome;
-            this.anoDeLancamento = anoDeLancamento;
-        }
+    public Titulo(String nome, int anoDeLancamento){
+        this.nome = nome;
+        this.anoDeLancamento = anoDeLancamento;
+    }
 
-        public Titulo(TituloOMDb tituloOMDb){
-            this.nome = tituloOMDb.title();
-            this.anoDeLancamento = Integer.valueOf(tituloOMDb.year().replaceAll("[^0-9]", ""));
-            this.duracaoEmMinutos = Integer.valueOf(tituloOMDb.runtime().replaceAll("[^0-9]", ""));
+    public Titulo(TituloOMDb tituloOMDb){
+        this.nome = tituloOMDb.title();
+        if (tituloOMDb.year().length() != 4){
+            throw new ErroDeConversaoDeAnoException("Não conseguir converter o ano, porque ele está fora do padrão yyyy");
         }
+        else {
+            this.anoDeLancamento = Integer.valueOf(tituloOMDb.year().replaceAll("[^0-9]", ""));
+        }
+        this.duracaoEmMinutos = Integer.valueOf(tituloOMDb.runtime().replaceAll("[^0-9]", ""));
+
+    }
 
     @Override
     public String toString() {

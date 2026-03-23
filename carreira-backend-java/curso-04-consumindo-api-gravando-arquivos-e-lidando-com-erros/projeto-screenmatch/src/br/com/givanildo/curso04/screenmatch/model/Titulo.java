@@ -29,7 +29,7 @@ public class Titulo {
 
     @Override
     public String toString() {
-        return String.format("Nome: %s\nAno de lançamento: %d\nDuração: %d min",getNome(),getAnoDeLancamento(),getDuracaoEmMinutos());
+        return String.format("( Nome: %s\nAno de lançamento: %d\nDuração: %d min )",getNome(),getAnoDeLancamento(),getDuracaoEmMinutos());
     }
 
     public void exibeFichaTecnica() {

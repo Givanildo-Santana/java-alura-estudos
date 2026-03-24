@@ -89,7 +89,21 @@ A carreira é dividida em **Base** + **3 Níveis**, totalizando 63 cursos e mais
   - `projeto-screenmatch/` — projeto ScreenMatch evoluído com os conceitos do curso
   - `docs/` — certificado do curso
 
-- *(em breve)* `curso-04-consumindo-api-gravando-arquivos-lidando-com-erros/`
+- `curso-04-consumindo-api-gravando-arquivos-e-lidando-com-erros/`
+  Curso de integração com APIs e persistência, focado em:
+  - requisições HTTP com `HttpClient`, `HttpRequest` e `HttpResponse`;
+  - desserialização de JSON com Gson e `record`;
+  - tratamento de exceções com `try/catch` e exceções personalizadas;
+  - escrita em arquivos com `FileWriter` e serialização com `gson.toJson()`.
+
+  Estrutura do curso:
+  - `modulo-01-requsicoes-e-respostas/` — HttpClient, HttpRequest, HttpResponse e consumo de APIs públicas
+  - `modulo-02-utilizando-uma-biblioteca-externa/` — Gson, fromJson, @SerializedName e records
+  - `modulo-03-lidando-com-excecoes/` — try/catch, exceções customizadas e hierarquia de exceções
+  - `modulo-04-persistindo-dados-em-arquivos/` — FileWriter, toJson e setPrettyPrinting
+  - `modulo-05-consolidando-conhecimentos/` — projeto ViaCEP com consulta de endereço e geração de JSON
+  - `projeto-screenmatch/` — projeto ScreenMatch com OMDb API, record TituloOMDb e geração de filmes.json
+  - `docs/` — certificado do curso
 
 ---
 
@@ -127,8 +141,14 @@ A carreira é dividida em **Base** + **3 Níveis**, totalizando 63 cursos e mais
   - ✅ Módulo 03 — Lista de objetos distintos
   - ✅ Módulo 04 — Ordenando dados
   - ✅ Módulo 05 — Consolidando conhecimentos
-- ⏳ Curso 04 — Java: consumindo API, gravando arquivos e lidando com erros
-- ⏳ Cursos 05–24 — Praticando Java, Spring Boot, DevOps...
+- ✅ Curso 04 — Java: consumindo API, gravando arquivos e lidando com erros
+  - ✅ Módulo 01 — Requisições e respostas
+  - ✅ Módulo 02 — Utilizando uma biblioteca externa
+  - ✅ Módulo 03 — Lidando com exceções
+  - ✅ Módulo 04 — Persistindo dados em arquivos
+  - ✅ Módulo 05 — Consolidando conhecimentos
+- ⏳ Curso 05 — Praticando Java com desafios
+- ⏳ Cursos 06–24 — Spring Boot, DevOps...
 
 ### Nível 2 — APIs Seguras, Microsserviços e CI/CD
 - ⏳ A iniciar

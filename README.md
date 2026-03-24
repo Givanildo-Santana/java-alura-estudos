@@ -11,7 +11,6 @@ Documentar e organizar toda a jornada de aprendizado na carreira **Desenvolvedor
 ---
 
 ## 🗂️ Organização
-
 ```text
 java-alura-estudos/
 └── carreira-backend-java/
@@ -37,6 +36,14 @@ java-alura-estudos/
     │   ├── modulo-02-construindo-objetos/
     │   ├── modulo-03-lista-de-objetos-distintos/
     │   ├── modulo-04-ordenando-dados/
+    │   ├── modulo-05-consolidando-conhecimentos/
+    │   ├── projeto-screenmatch/
+    │   └── docs/
+    ├── curso-04-consumindo-api-gravando-arquivos-e-lidando-com-erros/
+    │   ├── modulo-01-requsicoes-e-respostas/
+    │   ├── modulo-02-utilizando-uma-biblioteca-externa/
+    │   ├── modulo-03-lidando-com-excecoes/
+    │   ├── modulo-04-persistindo-dados-em-arquivos/
     │   ├── modulo-05-consolidando-conhecimentos/
     │   ├── projeto-screenmatch/
     │   └── docs/
@@ -76,7 +83,7 @@ A carreira é dividida em **Base** + **3 Níveis**:
 - ✅ Curso 01 — Java: criando a sua primeira aplicação
 - ✅ Curso 02 — Java: aplicando a Orientação a Objetos
 - ✅ Curso 03 — Java: trabalhando com listas e coleções de dados
-- ⏳ Curso 04 — Java: consumindo API, gravando arquivos e lidando com erros
+- ✅ Curso 04 — Java: consumindo API, gravando arquivos e lidando com erros
 - ⏳ Cursos 05–24 — Spring Boot, DevOps, testes...
 - ⏳ Nível 2 — APIs Seguras, Microsserviços e CI/CD
 - ⏳ Nível 3 — Sistemas Reativos e Arquitetura Avançada

@@ -1,73 +1,72 @@
 # Curso 04 — Java: Consumindo API, Gravando Arquivos e Lidando com Erros
 
-## 📚 Sobre o Curso
+Este diretório reúne os materiais de estudo, exercícios e projetos do **quarto curso** da carreira de Desenvolvedor Back-end Java na Alura.
 
-Quarto curso da formação **Desenvolvedor Back-end Java** na Alura.
-Foco em integração com APIs externas, manipulação de dados no formato JSON, persistência em arquivos e tratamento de exceções.
-
----
-
-## 🎯 O que você vai aprender
-
-- Consumir APIs HTTP em Java com `HttpClient`, `HttpRequest` e `HttpResponse`
-- Converter JSON em objetos Java com a biblioteca **Gson**
-- Manipular arquivos com classes do pacote `java.io`
-- Lidar com exceções de forma adequada
+O foco deste curso é integração com APIs externas, manipulação de dados no formato JSON, persistência em arquivos e tratamento de exceções.
 
 ---
 
-## 🗂️ Estrutura do Curso
+## Estrutura do curso
 
-```
-curso-04-consumindo-api-gravando-arquivos-e-lidando-com-erros/
-├── docs/
-├── modulo-01-requsicoes-e-respostas/
-├── modulo-02-utilizando-uma-biblioteca-externa/
-├── modulo-03-lidando-com-excecoes/
-├── modulo-04-persistindo-dados-em-arquivos/
-├── modulo-05-consolidando-conhecimentos/
-├── projeto-screenmatch/
-└── README.md
-```
+- `modulo-01-requsicoes-e-respostas/`
+  Consumo de APIs HTTP em Java:
+    - requisições HTTP com `HttpClient`, `HttpRequest` e `HttpResponse`;
+    - leitura do corpo da resposta com `BodyHandlers.ofString()`;
+    - consumo de APIs públicas (Google Books, CoinGecko, TheMealDB, OMDb).
 
----
+- `modulo-02-utilizando-uma-biblioteca-externa/`
+  Desserialização de JSON com Gson:
+    - adição de dependência externa com `.jar`;
+    - conversão de JSON em objetos Java com `gson.fromJson()`;
+    - mapeamento de campos com `@SerializedName`;
+    - uso de `record` como DTO para dados de APIs;
+    - `FieldNamingPolicy.UPPER_CAMEL_CASE` para APIs com nomes em PascalCase.
 
-## 📦 Módulos
+- `modulo-03-lidando-com-excecoes/`
+  Tratamento de erros em Java:
+    - bloco `try/catch` para captura de exceções;
+    - captura de múltiplas exceções com múltiplos `catch`;
+    - bloco `finally`;
+    - criação de exceções personalizadas com `extends RuntimeException`;
+    - diferença entre exceções checadas e não checadas.
 
-| Módulo | Conteúdo | Status |
-|---|---|---|
-| 01 — Requisições e respostas | HttpClient, HttpRequest, HttpResponse, APIs, JSON | ✅ Concluído |
-| 02 — Utilizando uma biblioteca externa | Gson, conversão JSON ↔ objetos Java | 🔄 Em andamento |
-| 03 — Lidando com exceções | try/catch, throws, exceções customizadas | ⏳ Pendente |
-| 04 — Persistindo dados em arquivos | java.io, leitura e escrita em arquivos | ⏳ Pendente |
-| 05 — Consolidando conhecimentos | Desafios finais | ⏳ Pendente |
+- `modulo-04-persistindo-dados-em-arquivos/`
+  Escrita de dados em arquivos:
+    - escrita em arquivos com `FileWriter`;
+    - serialização de objetos para JSON com `gson.toJson()`;
+    - formatação elegante do JSON com `setPrettyPrinting()`.
 
----
+- `modulo-05-consolidando-conhecimentos/`
+  Projeto final que aplica todos os conceitos do curso:
+    - aplicação de consulta de CEP via API ViaCEP;
+    - menu para o usuário informar o CEP;
+    - geração de arquivo `.json` com os dados do endereço.
 
-## 🎬 Projeto ScreenMatch
+- `projeto-screenmatch/`
+  Projeto ScreenMatch evoluído ao longo dos módulos:
+    - consumo da OMDb API com `HttpClient`;
+    - desserialização com Gson e record `TituloOMDb`;
+    - exceção personalizada `ErroDeConversaoDeAnoException`;
+    - busca de múltiplos filmes com loop e geração de `filmes.json`.
 
-Evolução do projeto iniciado no Curso 01, agora com integração à **OMDb API**.
-
-### Classes implementadas neste curso
-
-| Classe | Descrição |
-|---|---|
-| `PrincipalComBusca` | Busca um filme pelo nome via Scanner e consulta a OMDb API, exibindo o JSON retornado |
-
-### Pacote
-`br.com.givanildo.curso04.screenmatch`
-
----
-
-## 🔑 Variáveis de Ambiente Utilizadas
-
-| Variável | API |
-|---|---|
-| `OMDB_API_KEY` | OMDb API |
-| `GOOGLE_BOOKS_KEY` | Google Books API |
+- `docs/`
+  Documentos relacionados ao curso (certificado de conclusão).
 
 ---
 
-## 🏆 Certificado
+## Como executar os exercícios
 
-> Será adicionado após a conclusão do curso.
+1. Abra o projeto na sua IDE de preferência (IntelliJ IDEA, por exemplo).
+2. Navegue até o módulo desejado dentro de `src/`.
+3. Localize a classe que contém o método `main`.
+4. Execute a aplicação pelo botão de **Run** da IDE.
+
+---
+
+## Progresso
+
+- ✅ Módulo 01 — Requisições e respostas
+- ✅ Módulo 02 — Utilizando uma biblioteca externa
+- ✅ Módulo 03 — Lidando com exceções
+- ✅ Módulo 04 — Persistindo dados em arquivos
+- ✅ Módulo 05 — Consolidando conhecimentos

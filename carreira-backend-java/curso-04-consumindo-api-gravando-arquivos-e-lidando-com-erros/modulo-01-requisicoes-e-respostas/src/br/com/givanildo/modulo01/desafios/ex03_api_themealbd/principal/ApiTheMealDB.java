@@ -1,4 +1,4 @@
-package br.com.givanildo.modulo01.desafios.ex_03_api_themealbd.principal;
+package br.com.givanildo.modulo01.desafios.ex03_api_themealbd.principal;
 
 import java.io.IOException;
 import java.net.URI;
